@@ -1,0 +1,6 @@
+{
+  "name": "Анастасія Ніколаєва — Сайт-візитівка дизайнера",
+  "description": "Мінімалістичний сайт-візитівка та портфоліо дизайнерки та 3D-художниці Анастасії Ніколаєвої (Стюші) за матеріалами референсного PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
