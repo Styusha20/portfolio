@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { PageId } from '../types';
 import { ArrowLeft, ArrowRight, Layers, Eye, CheckCircle2 } from 'lucide-react';
 
@@ -82,7 +82,7 @@ export function CommercialGraphicsPage({ onNavigate }: CommercialGraphicsPagePro
             <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-neutral-950 shadow-md group">
               <div className="relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden">
                 <img
-                  src="/extracted/img_52.jpg"
+                  src="./extracted/img_52.jpg"
                   alt="Roov Cafe Citylight Mockup"
                   className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500"
                 />
@@ -101,7 +101,7 @@ export function CommercialGraphicsPage({ onNavigate }: CommercialGraphicsPagePro
               <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] space-y-3 p-4">
                 <div className="rounded-xl overflow-hidden aspect-[3/4] bg-neutral-900">
                   <img
-                    src="/extracted/img_13.jpg"
+                    src="./extracted/img_13.jpg"
                     alt="Roov Cafe Coffee Poster"
                     className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
                   />
@@ -115,7 +115,7 @@ export function CommercialGraphicsPage({ onNavigate }: CommercialGraphicsPagePro
               <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] space-y-3 p-4">
                 <div className="rounded-xl overflow-hidden aspect-[3/4] bg-neutral-900">
                   <img
-                    src="/extracted/img_12.jpg"
+                    src="./extracted/img_12.jpg"
                     alt="Roov Cafe Smoothie Poster"
                     className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
                   />
@@ -172,10 +172,10 @@ export function CommercialGraphicsPage({ onNavigate }: CommercialGraphicsPagePro
                 <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-4 space-y-3">
                   <div className="grid grid-cols-2 gap-2">
                     <div className="rounded-xl overflow-hidden aspect-[4/3] bg-neutral-900">
-                      <img src="/extracted/img_29.jpg" alt="Roov Certificate 2000" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                      <img src="./extracted/img_29.jpg" alt="Roov Certificate 2000" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                     </div>
                     <div className="rounded-xl overflow-hidden aspect-[4/3] bg-neutral-900">
-                      <img src="/extracted/img_14.jpg" alt="Roov Certificate 1000" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                      <img src="./extracted/img_14.jpg" alt="Roov Certificate 1000" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                     </div>
                   </div>
                   <div>
@@ -188,10 +188,10 @@ export function CommercialGraphicsPage({ onNavigate }: CommercialGraphicsPagePro
                 <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-4 space-y-3">
                   <div className="grid grid-cols-2 gap-2">
                     <div className="rounded-xl overflow-hidden aspect-[4/3] bg-neutral-900">
-                      <img src="/extracted/img_67.jpg" alt="Victory Travel Bus Certificate" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                      <img src="./extracted/img_67.jpg" alt="Victory Travel Bus Certificate" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                     </div>
                     <div className="rounded-xl overflow-hidden aspect-[4/3] bg-neutral-900">
-                      <img src="/extracted/img_23.jpg" alt="Victory Travel Flight Certificate" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                      <img src="./extracted/img_23.jpg" alt="Victory Travel Flight Certificate" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                     </div>
                   </div>
                   <div>
@@ -211,7 +211,7 @@ export function CommercialGraphicsPage({ onNavigate }: CommercialGraphicsPagePro
                 {/* 1. Roov Repair */}
                 <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3.5 space-y-2.5">
                   <div className="rounded-xl overflow-hidden aspect-[3/4] bg-neutral-900">
-                    <img src="/extracted/img_26.jpg" alt="Roov Repair Poster" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                    <img src="./extracted/img_26.jpg" alt="Roov Repair Poster" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                   </div>
                   <h4 className="font-bold text-xs text-[var(--app-text)]">Ремонт кавомашин Roov</h4>
                   <p className="text-[11px] text-[var(--app-muted)]">Сервісний інфо-постер для клієнтів кав’ярні.</p>
@@ -220,7 +220,7 @@ export function CommercialGraphicsPage({ onNavigate }: CommercialGraphicsPagePro
                 {/* 2. Restaurant Sim Sorok Event */}
                 <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3.5 space-y-2.5">
                   <div className="rounded-xl overflow-hidden aspect-[3/4] bg-neutral-900">
-                    <img src="/extracted/img_15.jpg" alt="Sim Sorok 8 March Poster" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                    <img src="./extracted/img_15.jpg" alt="Sim Sorok 8 March Poster" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                   </div>
                   <h4 className="font-bold text-xs text-[var(--app-text)]">«Сім Сорок» • 8 Березня</h4>
                   <p className="text-[11px] text-[var(--app-muted)]">Святкова вечірка: жива музика, саксофон та компліменти.</p>
@@ -229,7 +229,7 @@ export function CommercialGraphicsPage({ onNavigate }: CommercialGraphicsPagePro
                 {/* 3. Kolibri School Enrollment */}
                 <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3.5 space-y-2.5">
                   <div className="rounded-xl overflow-hidden aspect-[3/4] bg-neutral-900">
-                    <img src="/extracted/img_27.jpg" alt="Kolibri School Poster" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                    <img src="./extracted/img_27.jpg" alt="Kolibri School Poster" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                   </div>
                   <h4 className="font-bold text-xs text-[var(--app-text)]">«Колібрі» • 1 клас</h4>
                   <p className="text-[11px] text-[var(--app-muted)]">Набір учнів до приватного інклюзивного простору.</p>
@@ -265,7 +265,7 @@ export function CommercialGraphicsPage({ onNavigate }: CommercialGraphicsPagePro
               {/* Creative 1 */}
               <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3 space-y-2">
                 <div className="rounded-xl overflow-hidden aspect-[9/16] bg-neutral-900">
-                  <img src="/extracted/img_13.jpg" alt="Coffee Story" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                  <img src="./extracted/img_13.jpg" alt="Coffee Story" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                 </div>
                 <div className="p-1">
                   <span className="text-[10px] font-mono text-[var(--app-accent)] font-semibold uppercase">Roov Cafe</span>
@@ -276,7 +276,7 @@ export function CommercialGraphicsPage({ onNavigate }: CommercialGraphicsPagePro
               {/* Creative 2 */}
               <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3 space-y-2">
                 <div className="rounded-xl overflow-hidden aspect-[9/16] bg-neutral-900">
-                  <img src="/extracted/img_12.jpg" alt="Smoothie Story" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                  <img src="./extracted/img_12.jpg" alt="Smoothie Story" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                 </div>
                 <div className="p-1">
                   <span className="text-[10px] font-mono text-[var(--app-accent)] font-semibold uppercase">Roov Drinks</span>
@@ -287,7 +287,7 @@ export function CommercialGraphicsPage({ onNavigate }: CommercialGraphicsPagePro
               {/* Creative 3 */}
               <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3 space-y-2">
                 <div className="rounded-xl overflow-hidden aspect-[9/16] bg-neutral-900">
-                  <img src="/extracted/img_27.jpg" alt="School Story" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                  <img src="./extracted/img_27.jpg" alt="School Story" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                 </div>
                 <div className="p-1">
                   <span className="text-[10px] font-mono text-[var(--app-accent)] font-semibold uppercase">Колібрі Школа</span>

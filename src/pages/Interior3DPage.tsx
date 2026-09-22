@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { PageId } from '../types';
 import { ArrowLeft, ArrowRight, Sun, Moon, Box, Camera, CheckCircle2 } from 'lucide-react';
 
@@ -72,10 +72,10 @@ export function Interior3DPage({ onNavigate }: Interior3DPageProps) {
             <img
               src={
                 viewpoint === 'private'
-                  ? '/extracted/img_2.jpg'
+                  ? './extracted/img_2.jpg'
                   : viewpoint === 'openspace'
-                  ? '/extracted/img_9.jpg'
-                  : '/extracted/img_10.jpg'
+                  ? './extracted/img_9.jpg'
+                  : './extracted/img_10.jpg'
               }
               alt="3D Interior Visualization Render"
               className="w-full h-full object-cover object-center group-hover:scale-[1.01] transition-transform duration-700"
@@ -109,15 +109,15 @@ export function Interior3DPage({ onNavigate }: Interior3DPageProps) {
           {viewpoint === 'private' && (
             <div className="p-4 bg-[var(--app-surface)] border-t border-[var(--app-border)] grid grid-cols-3 gap-3">
               <div className="rounded-xl overflow-hidden border border-[var(--app-border)] aspect-[4/3] relative group/item">
-                <img src="/extracted/img_3.jpg" alt="Wardrobe view" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
+                <img src="./extracted/img_3.jpg" alt="Wardrobe view" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
                 <span className="absolute bottom-1.5 left-1.5 px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-black/70 text-white">Шафа та камінь</span>
               </div>
               <div className="rounded-xl overflow-hidden border border-[var(--app-border)] aspect-[4/3] relative group/item">
-                <img src="/extracted/img_10.jpg" alt="Vanity view" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
+                <img src="./extracted/img_10.jpg" alt="Vanity view" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
                 <span className="absolute bottom-1.5 left-1.5 px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-black/70 text-white">Туалетний столик</span>
               </div>
               <div className="rounded-xl overflow-hidden border border-[var(--app-border)] aspect-[4/3] relative group/item">
-                <img src="/extracted/img_11.jpg" alt="Headboard view" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
+                <img src="./extracted/img_11.jpg" alt="Headboard view" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
                 <span className="absolute bottom-1.5 left-1.5 px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-black/70 text-white">Узголів’я ліжка</span>
               </div>
             </div>
@@ -127,15 +127,15 @@ export function Interior3DPage({ onNavigate }: Interior3DPageProps) {
           {viewpoint === 'details' && (
             <div className="p-4 bg-[var(--app-surface)] border-t border-[var(--app-border)] grid grid-cols-3 gap-3">
               <div className="rounded-xl overflow-hidden border border-[var(--app-border)] aspect-[4/3] relative group/item">
-                <img src="/extracted/img_2.jpg" alt="Overview" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
+                <img src="./extracted/img_2.jpg" alt="Overview" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
                 <span className="absolute bottom-1.5 left-1.5 px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-black/70 text-white">Загальний план</span>
               </div>
               <div className="rounded-xl overflow-hidden border border-[var(--app-border)] aspect-[4/3] relative group/item">
-                <img src="/extracted/img_3.jpg" alt="Texture stone" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
+                <img src="./extracted/img_3.jpg" alt="Texture stone" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
                 <span className="absolute bottom-1.5 left-1.5 px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-black/70 text-white">Стіна з каменю</span>
               </div>
               <div className="rounded-xl overflow-hidden border border-[var(--app-border)] aspect-[4/3] relative group/item">
-                <img src="/extracted/img_11.jpg" alt="Bed detail" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
+                <img src="./extracted/img_11.jpg" alt="Bed detail" className="w-full h-full object-cover group-hover/item:scale-105 transition-transform" />
                 <span className="absolute bottom-1.5 left-1.5 px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-black/70 text-white">Підсвітка рейок</span>
               </div>
             </div>

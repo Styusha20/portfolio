@@ -1,4 +1,4 @@
-import { 
+﻿import { 
   PERSONAL_INFO, 
   EDUCATION_DATA, 
   EXPERIENCE_DATA, 
@@ -47,7 +47,7 @@ export function ResumePage() {
       <div className="p-6 sm:p-7 rounded-2xl bg-[var(--app-surface-card)] border border-[var(--app-border)] flex flex-col sm:flex-row gap-6 items-center">
         <div className="w-24 h-24 sm:w-28 sm:h-28 rounded-2xl overflow-hidden shrink-0 border border-[var(--app-border)] shadow-xs">
           <img
-            src="/extracted/img_103.jpg"
+            src="./extracted/img_103.jpg"
             alt="Ніколаєва Анастасія"
             className="w-full h-full object-cover object-top"
           />
@@ -197,8 +197,8 @@ export function ResumePage() {
           <div className="space-y-3">
             <div className="flex items-center gap-2.5">
               <div className="flex items-center gap-1.5">
-                <img src="/extracted/img_19.jpg" alt="Painting" className="w-6 h-6 object-contain rounded-md border border-[var(--app-border)] bg-white dark:bg-neutral-800 p-0.5" />
-                <img src="/extracted/img_18.jpg" alt="Tailoring" className="w-6 h-6 object-contain rounded-md border border-[var(--app-border)] bg-white dark:bg-neutral-800 p-0.5" />
+                <img src="./extracted/img_19.jpg" alt="Painting" className="w-6 h-6 object-contain rounded-md border border-[var(--app-border)] bg-white dark:bg-neutral-800 p-0.5" />
+                <img src="./extracted/img_18.jpg" alt="Tailoring" className="w-6 h-6 object-contain rounded-md border border-[var(--app-border)] bg-white dark:bg-neutral-800 p-0.5" />
               </div>
               <strong className="text-xs uppercase text-[var(--app-accent)] font-semibold">
                 Творчість:
@@ -210,8 +210,8 @@ export function ResumePage() {
           <div className="space-y-3">
             <div className="flex items-center gap-2.5">
               <div className="flex items-center gap-1.5">
-                <img src="/extracted/img_17.jpg" alt="Volleyball" className="w-6 h-6 object-contain rounded-md border border-[var(--app-border)] bg-white dark:bg-neutral-800 p-0.5" />
-                <img src="/extracted/img_16.jpg" alt="Skiing" className="w-6 h-6 object-contain rounded-md border border-[var(--app-border)] bg-white dark:bg-neutral-800 p-0.5" />
+                <img src="./extracted/img_17.jpg" alt="Volleyball" className="w-6 h-6 object-contain rounded-md border border-[var(--app-border)] bg-white dark:bg-neutral-800 p-0.5" />
+                <img src="./extracted/img_16.jpg" alt="Skiing" className="w-6 h-6 object-contain rounded-md border border-[var(--app-border)] bg-white dark:bg-neutral-800 p-0.5" />
               </div>
               <strong className="text-xs uppercase text-[var(--app-accent)] font-semibold">
                 Спорт & Активність:

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { PageId } from '../types';
 import { ArrowLeft, ArrowRight, Grid, BookOpen, Layers } from 'lucide-react';
 
@@ -73,7 +73,7 @@ export function EditorialPage({ onNavigate }: EditorialPageProps) {
 
           <div className="relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden">
             <img
-              src="/extracted/img_51.jpg"
+              src="./extracted/img_51.jpg"
               alt="ASICS Catalog Open Spread"
               className="w-full h-full object-cover object-center group-hover:scale-[1.01] transition-transform duration-700"
             />
@@ -95,7 +95,7 @@ export function EditorialPage({ onNavigate }: EditorialPageProps) {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
           <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3 space-y-2">
             <div className="rounded-xl overflow-hidden aspect-[4/3] bg-neutral-900">
-              <img src="/extracted/img_54.jpg" alt="ASICS Stack Mockup" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+              <img src="./extracted/img_54.jpg" alt="ASICS Stack Mockup" className="w-full h-full object-cover hover:scale-105 transition-transform" />
             </div>
             <div>
               <h4 className="font-bold text-xs text-[var(--app-text)]">Стопка надрукованих каталогів</h4>
@@ -105,7 +105,7 @@ export function EditorialPage({ onNavigate }: EditorialPageProps) {
 
           <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3 space-y-2">
             <div className="rounded-xl overflow-hidden aspect-[4/3] bg-neutral-900">
-              <img src="/extracted/img_65.jpg" alt="ASICS Perspective Cover" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+              <img src="./extracted/img_65.jpg" alt="ASICS Perspective Cover" className="w-full h-full object-cover hover:scale-105 transition-transform" />
             </div>
             <div>
               <h4 className="font-bold text-xs text-[var(--app-text)]">Перспективний мокап каталогу</h4>
@@ -115,7 +115,7 @@ export function EditorialPage({ onNavigate }: EditorialPageProps) {
 
           <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3 space-y-2">
             <div className="rounded-xl overflow-hidden aspect-[4/3] bg-neutral-900">
-              <img src="/extracted/img_33.jpg" alt="ASICS Spread 2" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+              <img src="./extracted/img_33.jpg" alt="ASICS Spread 2" className="w-full h-full object-cover hover:scale-105 transition-transform" />
             </div>
             <div>
               <h4 className="font-bold text-xs text-[var(--app-text)]">Розворот Blade FF & Gel-Tactic</h4>
@@ -140,7 +140,7 @@ export function EditorialPage({ onNavigate }: EditorialPageProps) {
           {/* POSMOS Brandbook */}
           <div className="p-5 rounded-3xl bg-[var(--app-surface-card)] border border-[var(--app-border)] space-y-4">
             <div className="rounded-2xl overflow-hidden aspect-[4/3] bg-neutral-900">
-              <img src="/extracted/img_49.jpg" alt="POSMOS Brandbook Mockup" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <img src="./extracted/img_49.jpg" alt="POSMOS Brandbook Mockup" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="space-y-1.5">
               <span className="text-[10px] font-mono text-[var(--app-accent)] uppercase font-semibold">BRAND GUIDELINES</span>
@@ -154,7 +154,7 @@ export function EditorialPage({ onNavigate }: EditorialPageProps) {
           {/* Tri-fold Brochure */}
           <div className="p-5 rounded-3xl bg-[var(--app-surface-card)] border border-[var(--app-border)] space-y-4">
             <div className="rounded-2xl overflow-hidden aspect-[4/3] bg-neutral-900">
-              <img src="/extracted/img_77.jpg" alt="Tri-fold brochure" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <img src="./extracted/img_77.jpg" alt="Tri-fold brochure" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="space-y-1.5">
               <span className="text-[10px] font-mono text-emerald-600 dark:text-emerald-400 uppercase font-semibold">TRI-FOLD LEAFLET</span>

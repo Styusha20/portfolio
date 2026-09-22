@@ -1,4 +1,4 @@
-import { PageId } from '../types';
+﻿import { PageId } from '../types';
 import { PERSONAL_INFO } from '../data/portfolioData';
 import { ArrowRight, MapPin, Mail, Phone, Sparkles, Award, ArrowUpRight } from 'lucide-react';
 
@@ -14,7 +14,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       subtitle: 'Айдентика, знаки та фірмовий стиль',
       tagline: 'Від ідеї до відбитку',
       count: '03',
-      image: '/extracted/img_84.jpg',
+      image: './extracted/img_84.jpg',
     },
     {
       id: 'commercial',
@@ -22,7 +22,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       subtitle: 'Digital креативи, поліграфія та зовнішня реклама',
       tagline: 'Від кліку до дії',
       count: '04',
-      image: '/extracted/img_13.jpg',
+      image: './extracted/img_13.jpg',
     },
     {
       id: 'editorial',
@@ -30,7 +30,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       subtitle: 'Каталоги, буклети, брендбуки та препрес',
       tagline: 'Від ідеї до складної верстки',
       count: '05',
-      image: '/extracted/img_54.jpg',
+      image: './extracted/img_54.jpg',
     },
     {
       id: 'interior3d',
@@ -38,7 +38,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       subtitle: 'Архітектурна візуалізація, приватні та відкриті простори',
       tagline: 'Від плану до візуалізації',
       count: '06',
-      image: '/extracted/img_2.jpg',
+      image: './extracted/img_2.jpg',
     },
     {
       id: 'uiux',
@@ -46,7 +46,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       subtitle: 'Комплексне проєктування складних інтерфейсів, CJM, MedTalks, Yumio',
       tagline: 'Від прототипу до взаємодії',
       count: '07',
-      image: '/extracted/img_32.jpg',
+      image: './extracted/img_32.jpg',
     },
     {
       id: 'decor',
@@ -54,7 +54,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
       subtitle: 'Просторові концепції, сезонні фотозони, романтичний та зимовий сезони',
       tagline: 'Від креативу до атмосфери',
       count: '08',
-      image: '/extracted/img_36.jpg',
+      image: './extracted/img_36.jpg',
     },
   ];
 
@@ -121,7 +121,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
               
               <div className="relative rounded-3xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface-card)] shadow-lg">
                 <img
-                  src="/extracted/img_103.jpg"
+                  src="./extracted/img_103.jpg"
                   alt="Анастасія Ніколаєва (Стюша)"
                   className="w-full aspect-[3/4] object-cover object-top filter contrast-[1.02] group-hover:scale-105 transition-transform duration-500"
                 />

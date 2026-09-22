@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { PageId } from '../types';
 import { ArrowLeft, ArrowRight, Sparkles, Heart, Snowflake, CheckCircle2 } from 'lucide-react';
 
@@ -88,7 +88,7 @@ export function DecorPage({ onNavigate }: DecorPageProps) {
             <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-neutral-950 shadow-md group">
               <div className="relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden">
                 <img
-                  src="/extracted/img_36.jpg"
+                  src="./extracted/img_36.jpg"
                   alt="Romantic Restaurant Decor"
                   className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500"
                 />
@@ -106,7 +106,7 @@ export function DecorPage({ onNavigate }: DecorPageProps) {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
               <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3 space-y-2">
                 <div className="rounded-xl overflow-hidden aspect-[4/3] bg-neutral-900">
-                  <img src="/extracted/img_95.jpg" alt="Suspended Letters" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                  <img src="./extracted/img_95.jpg" alt="Suspended Letters" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                 </div>
                 <h4 className="font-bold text-xs text-[var(--app-text)]">Підвісні літери та стельовий декор</h4>
                 <p className="text-[11px] text-[var(--app-muted)]">Об’ємні елементи з акцентною ілюмінацією.</p>
@@ -114,7 +114,7 @@ export function DecorPage({ onNavigate }: DecorPageProps) {
 
               <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3 space-y-2">
                 <div className="rounded-xl overflow-hidden aspect-[4/3] bg-neutral-900">
-                  <img src="/extracted/img_88.jpg" alt="Heart Garlands" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                  <img src="./extracted/img_88.jpg" alt="Heart Garlands" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                 </div>
                 <h4 className="font-bold text-xs text-[var(--app-text)]">Гірлянди сердець та фотозона</h4>
                 <p className="text-[11px] text-[var(--app-muted)]">Динамічна композиція для селфі гостей.</p>
@@ -122,7 +122,7 @@ export function DecorPage({ onNavigate }: DecorPageProps) {
 
               <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-[var(--app-surface)] p-3 space-y-2">
                 <div className="rounded-xl overflow-hidden aspect-[4/3] bg-neutral-900">
-                  <img src="/extracted/img_39.jpg" alt="Table Atmosphere" className="w-full h-full object-cover hover:scale-105 transition-transform" />
+                  <img src="./extracted/img_39.jpg" alt="Table Atmosphere" className="w-full h-full object-cover hover:scale-105 transition-transform" />
                 </div>
                 <h4 className="font-bold text-xs text-[var(--app-text)]">Сервірування та локальне світло</h4>
                 <p className="text-[11px] text-[var(--app-muted)]">Теплі акценти для столиків закладу.</p>
@@ -173,7 +173,7 @@ export function DecorPage({ onNavigate }: DecorPageProps) {
             <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-neutral-950 shadow-md group">
               <div className="relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden">
                 <img
-                  src="/extracted/img_44.jpg"
+                  src="./extracted/img_44.jpg"
                   alt="Sim Sorok Christmas Garland Mirror"
                   className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500"
                 />

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { ArrowLeft, ArrowRight, Sparkles, CheckCircle2 } from 'lucide-react';
 import { PageId } from '../types';
 
@@ -108,7 +108,7 @@ export function LogofolioPage({ onNavigate }: LogofolioPageProps) {
         <div className="rounded-3xl overflow-hidden border border-[var(--app-border)] bg-neutral-950 shadow-xl group">
           <div className="relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden">
             <img
-              src="/extracted/img_84.jpg"
+              src="./extracted/img_84.jpg"
               alt="Logofolio Master Showcase"
               className="w-full h-full object-cover object-center group-hover:scale-[1.01] transition-transform duration-700"
             />

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import { PageId } from '../types';
 import { ArrowLeft, ArrowRight, Smartphone, Monitor, Database, CheckCircle2 } from 'lucide-react';
 
@@ -82,7 +82,7 @@ export function UIUXPage({ onNavigate }: UIUXPageProps) {
             <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-neutral-950 shadow-md group">
               <div className="relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden">
                 <img
-                  src="/extracted/img_32.jpg"
+                  src="./extracted/img_32.jpg"
                   alt="MedTalks Desktop Mockup iMac"
                   className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500"
                 />
@@ -140,7 +140,7 @@ export function UIUXPage({ onNavigate }: UIUXPageProps) {
             <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-neutral-950 shadow-md group">
               <div className="relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden">
                 <img
-                  src="/extracted/img_30.jpg"
+                  src="./extracted/img_30.jpg"
                   alt="Yumio Mobile App 5 Screens Mockup"
                   className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500"
                 />
@@ -216,7 +216,7 @@ export function UIUXPage({ onNavigate }: UIUXPageProps) {
             <div className="rounded-2xl overflow-hidden border border-[var(--app-border)] bg-neutral-950 shadow-md group">
               <div className="relative aspect-[16/10] sm:aspect-[16/9] w-full overflow-hidden">
                 <img
-                  src="/extracted/img_47.jpg"
+                  src="./extracted/img_47.jpg"
                   alt="SRM Art School MacBook Mockup"
                   className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500"
                 />
